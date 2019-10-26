@@ -7,7 +7,10 @@ public class CriaConta {
 		Conta primeiraConta = new Conta();
 		primeiraConta.saldo = 200;
 		System.out.println("Saldo da primeira conta: R$ " + primeiraConta.saldo);
+		System.out.println(primeiraConta.agencia); //Valor defaut é zero.
+		System.out.println(primeiraConta.titular);//Valor defaut de String é null.
 		System.out.println(" ");
+		
 		
 		Conta segundaConta = new Conta();
 		segundaConta.agencia = 2123;
