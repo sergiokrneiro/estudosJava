@@ -1,6 +1,6 @@
 
 public class Cliente {
-	
-	String nome, CPF,  profissao;
+
+	String nome, CPF, profissao;
 
 }
